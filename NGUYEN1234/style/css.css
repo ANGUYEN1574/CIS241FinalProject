@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Venus";
+  src: url(venus_rising_rg.ttf);
+}
+
+
+nav {
+  margin-top: 50px;
+  text-align: left;
+  float: inherit;
+  font-size: 17px;
+  font-family: Venus;
+}
+
+li {
+
+  text-align: center;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-transition: all .5s ease;
+-moz-transition: all .5s ease;
+transition: all .5s ease;
+cursor: pointer;
+}
+li:hover {
+   font-size: 22px;
+
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+.block {
+  font-family: sans-serif;
+  padding-left: 50px;
+}
+
+h1 {
+  font-size: 50px;
+}
+h2 {
+  padding-left: 50px;
+}
+p {
+  padding-left: 100px;
+  padding-right: 150px;
+}
+form {
+  padding-left: 50px;
+}
+
+.interestlist li {
+  display: flex;
+  text-align: center;
+  padding: 15px;
+}
+
+.interestlist a {
+  color: black;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Guest Book - Antoine N</title>
+<meta charset="utf-8" />
+<link rel="stylesheet"  type="text/css" href="../style/css.css"/>
+</head>
+<body>
+
+
+<nav>
+	<ul>
+		<li>
+			<a href="index.html"> Home </a>
+		</li>
+		<li>
+			<a href="resume.html"> Resume </a>
+		</li>
+		<li>
+			<a href="guestbook.html"> Guestbook </a>
+		</li>
+		<li>
+			<a href="interest.html"> Interest </a>
+		</li>
+		<li>
+			<a href="reflections.html"> Reflections </a>
+		</li>
+	</ul>
+</nav>
+
+  <div class="block">
+<h1>GuestBook</h1> <hr>
+<br>
+<form
+  method="post"
+  action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+
+Enter Your Name: <input type="text" name="Name" size="40"/>
+<br/>
+<br/>
+Enter Your E-mail: <input type="text" name="Email" size="40"/>
+<br/>
+<br/><br/>
+What country do you live in?
+<input type="text" name="country" size="40">
+<br/>
+<br/>
+
+
+What is your experiences as Web Developer ?
+<br/>
+<input type="radio" name="web-experience" value="None"/>None
+<br/>
+<input type="radio" name="web-experience" value="Beginner"/>Beginner
+<br/>
+<input type="radio" name="web-experience" value="Intermediate"/>Intermediate
+<br/>
+<input type="radio" name="web-experience" value="Advanced"/>Advanced
+<br/>
+<br/>
+Should we add you to our mailing list? <input type="checkbox" name="mailinglist"/><br/>
+<br/>
+<br/>
+
+What web technologies are you interested in?? (check all that apply):<br/>
+<select name="interests" multiple="multiple" size="6">
+<option>HTML</option>
+<option>CSS</option>
+<option>JavaScript</option>
+<option>AJAX</option>
+<option>SQL</option>
+<option>PHP</option>
+</select>
+
+<br/>
+<br/>
+
+How did you find my website?
+<br/>
+<select name="website">
+<option>Select one</option>
+<option>I'm a friend</option>
+<option>A friend directed me to your site</option>
+<option>School Web Site</option>
+<option>A search engine directed me to your site</option>
+<option>I came across your site by accident</option>
+<option>Other</option>
+
+</select>
+<br/>
+<br/>
+
+Comments:<br/>
+<textarea name="comments" cols="50" rows="6">
+Hello from Antoine N
+</textarea>
+<br/>
+<br/>
+
+<input type="submit" value="submit"/>
+<input type="reset"/>
+
+</form>
+</div>
+
+</body>
+</html>

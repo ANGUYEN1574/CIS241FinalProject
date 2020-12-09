@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Venus";
+  src: url(venus_rising_rg.ttf);
+}
+
+/*body {
+  background: url("images/image1.jpg") no-repeat center center fixed; /* Bailey Zindel @baileyzindel - Yosemite Valley, United States*/
+
+
+h1 {
+    font-family:Venus;
+    /*color: blue; */
+    font-size: 80px;
+    text-align: center;
+      position:  absolute;  /*position: absolute;*/
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+    cursor: pointer;
+  }
+h1:hover {
+     font-size: 60px;
+  }
+
+nav {
+  margin-top: 250px;
+  text-align: center;
+  float: inherit;
+  font-size: 25px;
+  font-family: Venus;
+}
+
+li {
+
+  text-align: center;
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+  -webkit-transition: all .5s ease;
+-moz-transition: all .5s ease;
+transition: all .5s ease;
+cursor: pointer;
+}
+li:hover {
+   font-size: 35px;
+
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+.Home {
+  text-align: center;
+  margin-top: 50px;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-family: Venus;
+}
+
+.picture {
+  border-radius: 50%;
+}
